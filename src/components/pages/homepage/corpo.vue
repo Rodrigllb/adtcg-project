@@ -1,0 +1,212 @@
+<template>
+    <main>
+
+        <article>
+            <section class="fundo-igreja">
+                <h1>Assembleia de Deus Templo Central do Gravier</h1>
+                <p>Lugar de Restauração, Misericórdia e Ensino.</p>
+            </section>
+
+            <section class="links-rápidos">
+                <div>
+                    <a href="#"><img src="./../../../assets/icons/social/icongmail.png" alt="link para realizar envio de email"></a>
+                    <a href="#"><img src="./../../../assets/icons/social/iconinsta.png" alt="link para o instagram da igreja"></a>
+                    <a href="#"><img src="./../../../assets/icons/social/iconwapp.png" alt="link para o whatsapp do pastor da igreja"></a>                        
+                </div>
+            </section>
+
+            <section class="sobre-a-igreja">
+                <div>
+                    <h1>Uma comunidade, um corpo e um só Espírito.</h1>
+
+                <p> Mais que um lugar, somos uma família.
+                    Uma comunidade unida por um só Corpo, um só Espírito e um só propósito: viver e anunciar o amor de Cristo.
+                    No Templo Central, acolhemos com carinho, acalentamos com fé e instruímos com a verdade da Palavra.
+                    Aqui, cada vida importa. Cada coração encontra direção, consolo e propósito.
+                    Somos guiados pelo Espírito Santo e firmados na única esperança de salvação: Jesus Cristo, o Caminho, a Verdade e a Vida.
+                </p>
+                </div>
+                
+                <div class="video-apresentativo">
+                    <video width="480" height="894" controls >
+                        <source src="./../../../assets/videos/video-igreja.mp4" >
+                    </video>
+                </div>
+            </section>
+
+            <section class="departamentos">
+                <h3>Departamentos</h3>
+                <div>
+                    <section>
+                        <p>UMADG</p>
+                    </section>
+                    <section>
+                        <p>USADG</p>
+                    </section>
+                    <section>
+                        <p>DIADG</p>
+                    </section>
+                </div>
+               
+            </section>
+
+        </article>
+
+    </main>
+</template>
+
+<script>
+    export default {
+        name: 'corpoSite'
+    }
+
+</script>
+
+<style scoped>
+
+    main article { /*Estilização do corpo do site*/
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .fundo-igreja { /*Estilização da seção referente ao fundo da imagem da igreja*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 500px;
+        width: 100%;
+        color: #fff;
+        padding: 12px;
+        background-image: url('./../../../assets/backgrounds/fundoigrejadesktop.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+    .fundo-igreja h1 {
+        font-size: 38px;
+    }
+
+    .links-rápidos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 120px;
+        background-color: #252525;
+    }
+    .links-rápidos div {
+        display: flex;
+        justify-content: space-around;
+        width: 550px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .links-rápidos div img:hover {
+        transition: all 0.7s ease-in-out;
+        transform: translateY(-12px);
+    }
+
+    .sobre-a-igreja { /*Container referente a descrição da igreja */
+        display: grid;
+        grid-template-columns: 756px auto;
+        text-align: left;
+        align-items: center;
+        width: 100%;
+        padding: 22px;
+    }
+    .sobre-a-igreja h1 {
+        font-size: 38px;
+        font-weight: 900;
+    }
+    .sobre-a-igreja h2 {
+        font-size: 30px;
+        padding-bottom: 12px;
+    }
+    .sobre-a-igreja p {
+        padding-bottom: 12px;
+        text-align: justify;
+    }
+    .sobre-a-igreja em {
+        background-color: #e4e4e4;
+    }
+    
+    .video-apresentativo { /*Container do video representativo*/
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 8    0%;
+        height: auto;
+        margin: 22px;
+        align-items: center;
+        justify-content: center;    
+    }
+    .video-apresentativo video { /*Estilização do video */
+        width: 320px;
+        height: 500px;
+        border: solid #131313 4px;
+        border-radius: 15px;
+        background-color: #101010;
+    }
+
+    .departamentos {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        background-color: #c4c4c4;    
+    }
+    .departamentos h3 { /*Estilização especifica do titulo nivel três dentro desse container */
+        font-size: 35px;
+    }
+    .departamentos div {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .departamentos section {
+        justify-content: center;
+        align-items: center;
+        width: 35vh;
+        height: 30vh;
+        border-radius: 25px;
+    }
+
+    /****RESPONSIVIDADE****/
+
+    @media (max-width: 1260px) {
+
+        main article {
+
+        }
+
+        .sobre-a-igreja {
+            display: grid;
+            grid-template-columns: 100%;
+        }
+
+
+        .video-apresentativo {
+            display: flex;
+        }
+    }
+
+
+    @media (max-width:  740px) {
+        main article {
+
+        }
+
+        .fundo-igreja {
+            display: flex;
+            color: #fff;
+            background-image: url('./../../../assets/backgrounds/background-igreja.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    }
+
+</style>

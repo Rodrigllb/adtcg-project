@@ -11,14 +11,27 @@
         <li><a href="#">Inicio</a></li>
         <li><a href="#">História</a></li>
         <li><a href="#">Lideres</a></li>
-        <li><a href="#">Contatos</a></li>
       </ul>
     </nav>
 
 
     <!--Menu quando estiver aberto em dispositivos de menor tamanho-->
     <div id="menu-aberto">
-      
+      <section>
+        <img src="./../../../assets/icons/options/iconInicio.png" alt="Icone do inicio">
+        <a href="#">Inicio</a>
+      </section>
+      <section>
+        <img src="./../../../assets/icons/options/iconHisto.png" alt="Icone da historia da igreja">
+        <a href="#">História</a>
+      </section>
+      <section>
+        <img src="./../../../assets/icons/options/iconLideran.png" alt="Icone de liderança">
+        <a href="#">Liderança</a>
+      </section>
+      <section class="marca">
+        <small>Developed by Rodrigo Liberato - 2025</small>
+      </section>
     </div>
 
     <!--Elemento para abrir menu em dispositivos mobile-->
@@ -73,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function DOMcarregado() { //Espera
     top: 0;
     position: sticky;
     width: 100%;
-    height: 75px;
+    height: 85px;
     background-color: #131313;
     color: #ffff;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
@@ -87,9 +100,11 @@ document.addEventListener("DOMContentLoaded", function DOMcarregado() { //Espera
     display: flex;
     flex-direction: row; 
     justify-content: space-around;
-    width: 75vw;
+    align-items: center;
+    width: 65vw;
     height: auto;
     list-style: none;
+    font-weight: 300;
   }
 
   a { /*Estilização geral dos links */
@@ -114,20 +129,40 @@ document.addEventListener("DOMContentLoaded", function DOMcarregado() { //Espera
     display: flex;
     position: fixed;
     visibility: hidden; 
-    justify-content: center;
-    top: 75px;
+    
+    flex-direction: column;
+    top: 85px;
     transform: translateX(550px);
     width: 100%;
-    height: 100vh;
+    max-height: 70vh;
     margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-    background-color: #333333;
+    background-color: #5a5a5a;
 
   }
-  #menu-aberto ul li {
-    background-color: #131313;
-    font-family: 45px;
+  #menu-aberto section {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 12px;
   }
+  #menu-aberto section:hover {
+    background-color: #757575;
+  }
+  #menu-aberto section a {
+    margin-left: 9px;
+  }
+  #menu-aberto section small {
+    font-weight: 300;
+    opacity: 75%;
+    font-size: 12px;
+  }
+  #menu-aberto .marca {
+    background-color: #3d3d3d;
+  }
+
 
 
   /****RESPONSIVIDADE*****/

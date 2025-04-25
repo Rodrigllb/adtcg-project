@@ -10,8 +10,8 @@
             <section class="links-rápidos">
                 <div>
                     <a href="#"><img src="./../../../assets/icons/social/icongmail.png" alt="link para realizar envio de email"></a>
-                    <a href="#"><img src="./../../../assets/icons/social/iconinsta.png" alt="link para o instagram da igreja"></a>
-                    <a href="#"><img src="./../../../assets/icons/social/iconwapp.png" alt="link para o whatsapp do pastor da igreja"></a>                        
+                    <a href="https://www.instagram.com/adtcgravier/" target="_blank"><img src="./../../../assets/icons/social/iconinsta.png" alt="link para o instagram da igreja"></a>
+                    <a href="https://wa.link/e0m89j" target="_blank"><img src="./../../../assets/icons/social/iconwapp.png" alt="link para o whatsapp do pastor da igreja"></a>                        
                 </div>
             </section>
 
@@ -28,26 +28,30 @@
                 </div>
                 
                 <div class="video-apresentativo">
-                    <video width="480" height="894" controls >
+                    <video width="480" height="894" controls>
                         <source src="./../../../assets/videos/video-igreja.mp4" >
                     </video>
+                    <small>Aniversário em homenagem ao nosso Pastor</small>
                 </div>
             </section>
 
             <section class="departamentos">
                 <h3>Departamentos</h3>
+                <small>União dos jovens, senhoras e crianças</small>
                 <div>
                     <section>
+                    <img src="./../../../assets/logo/umadgLogo.jpg" alt="União de mocidade">
                         <p>UMADG</p>
                     </section>
                     <section>
+                        <img src="./../../../assets/logo/usadgLogo.jpg" alt="União de senhoras">
                         <p>USADG</p>
                     </section>
                     <section>
+                        <img src="./../../../assets/logo/diadgLogo.jpg" alt="União de crianças">
                         <p>DIADG</p>
                     </section>
                 </div>
-               
             </section>
 
         </article>
@@ -146,12 +150,17 @@
     .video-apresentativo video { /*Estilização do video */
         width: 320px;
         height: 500px;
-        border: solid #131313 4px;
+        
         border-radius: 15px;
         background-color: #101010;
     }
+    .video-apresentativo small {
+        font-size: 12px;
+        font-weight: 300;
+        opacity: 80%;
+    }
 
-    .departamentos {
+    .departamentos {    
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -165,13 +174,20 @@
         display: flex;
         justify-content: space-around;
         flex-direction: row;
+        padding: 42px;
     }
     .departamentos section {
         justify-content: center;
         align-items: center;
         width: 35vh;
-        height: 30vh;
+        height: 15vh;
         border-radius: 25px;
+    }
+    .departamentos section img {
+        width: 75px;
+        height: auto;
+        border: solid 2px #252525;
+        border-radius: 50%;
     }
 
     /****RESPONSIVIDADE****/
@@ -190,6 +206,10 @@
 
         .video-apresentativo {
             display: flex;
+        }
+        .video-apresentativo video {
+            width: 100%;
+            height: 200px;
         }
     }
 

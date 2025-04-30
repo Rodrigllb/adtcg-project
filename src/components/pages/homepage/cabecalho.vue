@@ -9,8 +9,8 @@
     <nav>
       <ul>
         <li><a href="#">Inicio</a></li>
-        <li><a href="#">História</a></li>
-        <li><a href="#">Lideres</a></li>
+        <li><a href="#historiadaigreja">História</a></li>
+        <li><a href="#lideranca">Lideres</a></li>
       </ul>
     </nav>
 

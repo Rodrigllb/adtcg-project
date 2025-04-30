@@ -1,4 +1,4 @@
-<template>
+    <template>
     <main>
 
         <article>
@@ -80,7 +80,7 @@
 
             </section>
 
-            <section class="historiadaigreja">
+            <section id="historiadaigreja">
 
                 <div>
                     <h1>Nossa história</h1>
@@ -269,7 +269,7 @@
     }
 
 
-    .historiadaigreja { /*Historia sobre a igreja*/
+    #historiadaigreja { /*Historia sobre a igreja*/
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -279,7 +279,7 @@
         width: 100%;
         height: auto;
     }
-    .historiadaigreja h1 {
+    #historiadaigreja h1 {
         font-size: 38px;
     }
 

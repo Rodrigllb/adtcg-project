@@ -36,8 +36,10 @@
             </section>
 
             <section class="departamentos">
+                
                 <h3>Departamentos</h3>
                 <small>União dos jovens, senhoras e crianças</small>
+                
                 <div>
                     <section>
                     <img src="./../../../assets/logo/umadgLogo.jpg" alt="União de mocidade">
@@ -52,6 +54,42 @@
                         <p>DIADG</p>
                     </section>
                 </div>
+            </section> 
+
+            <section id="lideranca">
+                <h3>Liderança</h3>
+                <small>Pastor e Diáconos da igreja</small>
+
+                <div class="lideres">
+                    <section>
+                        <img src="./../../../assets/lideres/diaconoclavesherique.webp" alt="Diacono">    
+                        <p>Diácono Henrique</p>
+                    </section>         
+
+                    <section>
+                        <img src="./../../../assets/lideres/prvaldecirecicera.webp" alt="Pastores">
+                        <p>Pastor Valdecir</p>
+                    </section>
+
+                    <section>
+                        <img src="./../../../assets/lideres/diaconobruno.webp" alt="Diacono">
+                        <p>Diácono Bruno</p>
+                    </section>
+
+                </div>
+
+            </section>
+
+            <section class="historiadaigreja">
+
+                <div>
+                    <h1>Nossa história</h1>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non maiores dolore, accusantium voluptates doloribus magnam voluptatibus fugiat fugit accusamus blanditiis qui laborum consequatur? Voluptatum veritatis atque reprehenderit nesciunt! Fugiat, omnis.
+                    </p>
+                </div>
+
             </section>
 
         </article>
@@ -141,16 +179,14 @@
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        width: 8    0%;
+        width: 90%;
         height: auto;
-        margin: 22px;
         align-items: center;
         justify-content: center;    
     }
     .video-apresentativo video { /*Estilização do video */
         width: 320px;
         height: 500px;
-        
         border-radius: 15px;
         background-color: #101010;
     }
@@ -160,35 +196,95 @@
         opacity: 80%;
     }
 
-    .departamentos {    
+    .departamentos { /*Estilização do container dos departamentos */
         display: flex;
         flex-direction: column;
         width: 100%;
         height: auto;
-        background-color: #c4c4c4;    
+        background-color: #c4c4c4; 
+        padding-top: 22px;
+        padding-bottom: 22px;   
     }
     .departamentos h3 { /*Estilização especifica do titulo nivel três dentro desse container */
         font-size: 35px;
     }
-    .departamentos div {
+    .departamentos div { /*Estilização geral do elementos div's do container departamentos */
         display: flex;
         justify-content: space-around;
         flex-direction: row;
         padding: 42px;
     }
-    .departamentos section {
+    .departamentos section { /*Estilização das seções */
         justify-content: center;
         align-items: center;
         width: 35vh;
         height: 15vh;
         border-radius: 25px;
     }
-    .departamentos section img {
+    .departamentos section img { /*Estilização das imagens dentro das seções dos departamentos */
         width: 75px;
         height: auto;
         border: solid 2px #252525;
         border-radius: 50%;
     }
+
+    #lideranca {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        background-color: #101010;
+        color: #e4e4e4;
+        padding-top: 22px;
+    }
+    #lideranca h3 {
+        font-size: 35px;
+    }
+    .lideres {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 250px;
+        padding: 5px;
+    }
+    .lideres section {
+        justify-content: center;
+        align-items: center;
+
+    }
+    .lideres small {
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .lideres img {
+        width: 85px;
+        height: auto;
+        border: 2px solid #e4e4e4;
+        border-radius: 50%;
+        margin: 12px;
+    }
+
+
+    .historiadaigreja { /*Historia sobre a igreja*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        padding: 22px;
+        width: 100%;
+        height: auto;
+    }
+    .historiadaigreja h1 {
+        font-size: 38px;
+    }
+
+
+
 
     /****RESPONSIVIDADE****/
 

@@ -27,7 +27,7 @@
       </section>
       <section>
         <img src="./../../../assets/icons/options/iconLideran.png" alt="Icone de liderança">
-        <a href="#">Liderança</a>
+        <a href="#lideranca">Liderança</a>
       </section>
       <section class="marca">
         <small>Developed by Rodrigo Liberato - 2025</small>
@@ -84,6 +84,7 @@ document.addEventListener("DOMContentLoaded", function DOMcarregado() { //Espera
     align-items: center;
     justify-content: center;
     top: 0;
+    z-index: 1;
     position: sticky;
     width: 100%;
     height: 85px;

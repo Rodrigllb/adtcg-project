@@ -1,17 +1,20 @@
 <template>
   <cabecalhoSite></cabecalhoSite>
   <corpoSite></corpoSite>
+  <rodapeSite></rodapeSite>
 </template>
 
 <script>
 import cabecalhoSite from './components/pages/homepage/cabecalho.vue'
 import corpoSite from './components/pages/homepage/corpo.vue'
+import rodapeSite from './components/pages/homepage/rodape.vue'
 
 export default {
   name: 'App',
   components: {
     cabecalhoSite,
     corpoSite,
+    rodapeSite,
   }
 }
 </script>

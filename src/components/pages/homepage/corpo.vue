@@ -9,9 +9,9 @@
 
             <section class="links-rápidos">
                 <div>
-                    <a href="#"><img src="./../../../assets/icons/social/icongmail.png" alt="link para realizar envio de email"></a>
-                    <a href="https://www.instagram.com/adtcgravier/" target="_blank"><img src="./../../../assets/icons/social/iconinsta.png" alt="link para o instagram da igreja"></a>
-                    <a href="https://wa.link/e0m89j" target="_blank"><img src="./../../../assets/icons/social/iconwapp.png" alt="link para o whatsapp do pastor da igreja"></a>                        
+                    <a href="mailto:rodrigollib3@gmail.com"><img src="./../../../assets/icons/social/icongmail.png" alt="link para realizar envio de email" title="Sugestões ao desenvolvedor via e-mail"></a>
+                    <a href="https://www.instagram.com/adtcgravier/" target="_blank"><img src="./../../../assets/icons/social/iconinsta.png" alt="link para o instagram da igreja" title="Perfil da igreja"></a>
+                    <a href="https://wa.link/e0m89j" target="_blank"><img src="./../../../assets/icons/social/iconwapp.png" alt="link para o whatsapp do pastor da igreja" title="Fale com o pastor"></a>                        
                 </div>
             </section>
 
@@ -87,6 +87,7 @@
 
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non maiores dolore, accusantium voluptates doloribus magnam voluptatibus fugiat fugit accusamus blanditiis qui laborum consequatur? Voluptatum veritatis atque reprehenderit nesciunt! Fugiat, omnis.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam omnis explicabo, error vel officiis ipsa natus, officia veniam magnam, libero delectus voluptatibus sint voluptatum laudantium. Tempora a perspiciatis consequuntur iusto?
                     </p>
                 </div>
 
@@ -191,7 +192,7 @@
         background-color: #101010;
     }
     .video-apresentativo small {
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 300;
         opacity: 80%;
     }
@@ -242,6 +243,10 @@
     #lideranca h3 {
         font-size: 35px;
     }
+    #lideranca p {
+        font-size: 11px;
+    }
+
     .lideres {
         display: flex;
         flex-direction: row;
@@ -263,7 +268,7 @@
     .lideres img {
         width: 85px;
         height: auto;
-        border: 2px solid #e4e4e4;
+        
         border-radius: 50%;
         margin: 12px;
     }

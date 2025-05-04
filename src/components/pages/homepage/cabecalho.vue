@@ -23,7 +23,7 @@
       </section>
       <section>
         <img src="./../../../assets/icons/options/iconHisto.png" alt="Icone da historia da igreja">
-        <a href="#">História</a>
+        <a href="#historiadaigreja">História</a>
       </section>
       <section>
         <img src="./../../../assets/icons/options/iconLideran.png" alt="Icone de liderança">

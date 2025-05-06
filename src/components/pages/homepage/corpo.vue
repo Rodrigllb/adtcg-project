@@ -17,8 +17,9 @@
 
             <section class="sobre-a-igreja">
                 <div>
-                    <h1>Uma comunidade, um corpo e um só Espírito.</h1>
-
+                <h1>Uma comunidade, um corpo e um só Espírito.</h1>
+                    <hr>
+                    <br>
                 <p> Mais que um lugar, somos uma família.
                     Uma comunidade unida por um só Corpo, um só Espírito e um só propósito: viver e anunciar o amor de Cristo.
                     No Templo Central, acolhemos com carinho, acalentamos com fé e instruímos com a verdade da Palavra.
@@ -84,10 +85,20 @@
 
                 <div>
                     <h1>Nossa história</h1>
-
+                    <hr>
+                    <br>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non maiores dolore, accusantium voluptates doloribus magnam voluptatibus fugiat fugit accusamus blanditiis qui laborum consequatur? Voluptatum veritatis atque reprehenderit nesciunt! Fugiat, omnis.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam omnis explicabo, error vel officiis ipsa natus, officia veniam magnam, libero delectus voluptatibus sint voluptatum laudantium. Tempora a perspiciatis consequuntur iusto?
+                        Em meados de 2019, o Pastor Valdecir, juntamente com sua esposa e filhos, chegou à comunidade do Gravier com o coração cheio de fé e o propósito de servir ao Senhor com dedicação. Ali se iniciou uma nova etapa ministerial, marcada por oração, trabalho e o desejo sincero de alcançar vidas para Cristo.
+
+                        Nos primeiros dias, a igreja era pequena e modesta. Alguns pastores já haviam passado por ali, cuidando da obra do Senhor, mas foi com a chegada do Pastor Valdecir que a igreja começou a viver um novo tempo de crescimento e avivamento espiritual.
+
+                        <br><br>Com o passar dos anos, e com a cooperação fiel dos irmãos, o templo foi sendo reformado e ampliado, tornando-se um lugar acolhedor de adoração e comunhão. Mais importante ainda, muitas almas foram alcançadas, libertas e salvas, testemunhando o agir poderoso de Deus em nosso meio.
+
+                        Além do Pastor Valdecir, a igreja foi sendo fortalecida com o apoio de irmãos e dirigentes comprometidos com a obra, como o irmão Henrique, que assumiu responsabilidades importantes na liderança, e a irmã Monnalisa, que com zelo e talento dirige o coral e ministra o louvor como regente. Também destacam-se o irmão Nasareno e a irmã Rita, que com amor e sabedoria têm contribuído na organização e edificação da igreja.
+
+                        <br><br>Os departamentos também foram se estruturando ao longo do tempo. Hoje contamos com o Departamento Infantil, que cuida das crianças com carinho e ensina os princípios da Palavra desde cedo; o Departamento de Jovens, onde os adolescentes e jovens encontram direção, comunhão e motivação para servir a Deus com alegria; o Departamento de Senhores, que com sua maturidade espiritual ajudam a sustentar a igreja com oração e bons conselhos; e o Departamento de Senhoras, composto por mulheres de fé que são colunas de intercessão, serviço e amor ao próximo.
+
+                        Cada ministério e cada vida envolvida representam uma peça importante na construção da nossa história. Tudo o que temos vivido é fruto da fidelidade de Deus e da união do Seu povo. Seguimos avançando, firmes na fé, convictos de que "Aquele que começou a boa obra a aperfeiçoará até o dia de Cristo Jesus" (Filipenses 1:6).
                     </p>
                 </div>
 
